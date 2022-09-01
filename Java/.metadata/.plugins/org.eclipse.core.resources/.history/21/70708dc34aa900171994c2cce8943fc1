@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Chemputer {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	ChemputerClass t = new ChemputerClass();
+	Scanner string = new Scanner (System.in);
+	Scanner num = new Scanner (System.in);
+	
+	//First Poly
+	System.out.println("What is your first ion?");	
+	String  ion1 = string.nextLine();
+	System.out.println("What is your first ion's subscript?");	
+	String  subscript1 = string.nextLine();
+	System.out.println("What is your second ion?");	
+	String  ion2 = string.nextLine();
+	System.out.println("What is your second ion's subscript?");	
+	String  subscript2 = string.nextLine();
+	
+	//Second Poly
+	System.out.println("What is your first ion?");	
+	String  ion3 = string.nextLine();
+	System.out.println("What is your first ion's subscript?");	
+	String  subscript3 = string.nextLine();
+	System.out.println("What is your second ion?");	
+	String  ion4 = string.nextLine();
+	System.out.println("What is your second ion's subscript?");	
+	String subscript4 = string.nextLine();
+}
+}

@@ -1,0 +1,94 @@
+import java.util.Scanner;
+public class String_Program {
+//Frankie Mesina
+//Mod 9
+//Mr. Marascio
+//1/28/17
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner instring = new Scanner(System.in);
+		Scanner inint = new Scanner(System.in);
+		Scanner inchar = new Scanner(System.in);
+		int operation;
+		String searchnum;
+		String first;
+		String second;
+		int run=0;
+		
+		System.out.println("Enter String- ");
+		String input = instring.nextLine();
+		System.out.println();
+		
+		while(run!=2)
+		{
+			System.out.println();
+			System.out.println("String- "+input);
+			System.out.println();
+			System.out.println("(1) Search for string/character");
+			System.out.println("(2) Count the amount of times a string/character appears.");
+			System.out.println("(3) Reverse/Rewrite your string so it is read backwards.");
+			System.out.println("(4) Replace a string/charachter with another string/charachter of your choosing.");
+			System.out.println("(5) Return the length of your final string/charachter.");
+			System.out.print("Pick which operation you would like: ");
+			operation = inint.nextInt();
+			System.out.println();
+			
+			if(operation==1)//SEARCH
+			{
+			System.out.println("Search for- ");
+			searchnum = instring.nextLine();
+			System.out.println(input.indexOf(searchnum));
+			}
+			//----------------------------------------------------------------------------------------------------------
+			else if(operation==2)//COUNT
+			{
+			System.out.println("Count:");
+			String count = instring.nextLine();
+			int c=0;
+			for(int j=0;j <=input.length()-1; j++)
+			{
+			if(count.equals(input.substring(j,j+1)))
+			{
+			c++;
+			System.out.println(c);
+			}
+			}
+			System.out.println("Times it appears in the string: "+c);
+			}
+			//----------------------------------------------------------------------------------------------------------
+			else if(operation==3)//REWRITE BACKWARDS
+			{
+			for(int k=input.length()-1; k>=0; k--)
+			System.out.print(input.charAt(k));
+			System.out.println("");
+			}
+			//----------------------------------------------------------------------------------------------------------
+			else if(operation==4)//REPLACE
+			{
+			System.out.print("Replace: ");
+			first = instring.nextLine();
+			while(input.indexOf(first)==-1)
+			{
+			System.out.print("Your input is not in the String, please reenter what you would like to replace: ");
+			first = instring.nextLine();
+			}
+			System.out.print("Replace "+first+ " with: ");
+			second = instring.nextLine();
+			input=input.replace(first,second);
+			}
+			//----------------------------------------------------------------------------------------------------------
+			else if(operation==5)//LENGTH
+			{
+			System.out.println(input.length());	
+			}
+			
+			System.out.println("Would you like to run again? (1)Yes (2)No");
+			run = inint.nextInt();
+		}
+	}
+
+}

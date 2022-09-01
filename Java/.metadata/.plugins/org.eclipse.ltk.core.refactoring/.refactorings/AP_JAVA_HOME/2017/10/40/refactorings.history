@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ticclass.java&apos; to &apos;Personal_Projects/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;AP_JAVA_HOME&apos;&#x0D;&#x0A;- Destination element: &apos;Personal_Projects/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;ticclass.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Personal_Projects/src&lt;" element1="/src&lt;{ticclass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1507151464404" units="1" version="1.0"/>
+</session>

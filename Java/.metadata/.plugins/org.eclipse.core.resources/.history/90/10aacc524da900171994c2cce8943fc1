@@ -1,0 +1,15 @@
+public class ChemputerClass {
+	
+public void checkHalogens()
+{
+	
+}
+public void setSpot1(int x, int y, String[][] b)
+{
+}
+
+public void setSpot2(int x, int y, String[][] b)
+{
+}
+
+}

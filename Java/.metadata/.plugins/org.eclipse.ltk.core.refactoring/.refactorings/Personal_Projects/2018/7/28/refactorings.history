@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;ACSL_Junior_Year/src&apos;&#x0D;&#x0A;- Original project: &apos;Personal_Projects&apos;&#x0D;&#x0A;- Destination element: &apos;ACSL_Junior_Year/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ACSL_Enclosure.java&#x0D;&#x0A;     ACSL_Enclosureshitty.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=ACSL_Junior_Year/src" element1="/src&lt;{ACSL_Enclosure.java" element2="/src&lt;{ACSL_Enclosureshitty.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1531602566715" units="2" version="1.0"/>
+</session>

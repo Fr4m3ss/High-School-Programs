@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;test2.txt&apos; to &apos;input&apos;&#x0D;&#x0A;- Original project: &apos;ACSL_Junior_Year&apos;&#x0D;&#x0A;- Destination element: &apos;input&apos;&#x0D;&#x0A;- Original element: &apos;test2.txt&apos;" description="Copy file" element1="test2.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542578963428" target="/ACSL_Senior_Year/input" units="0" version="1.0"/>
+</session>

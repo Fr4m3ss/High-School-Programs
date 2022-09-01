@@ -1,0 +1,18 @@
+public class ChemputerClass {
+	
+public void checkHalogens(String x)
+{
+	if(x=="Cl")
+	{
+		
+	}
+}
+public void setSpot1(int x, int y, String[][] b)
+{
+}
+
+public void setSpot2(int x, int y, String[][] b)
+{
+}
+
+}

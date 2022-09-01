@@ -1,0 +1,4 @@
+#Thu Feb 23 00:34:04 EST 2017
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=project

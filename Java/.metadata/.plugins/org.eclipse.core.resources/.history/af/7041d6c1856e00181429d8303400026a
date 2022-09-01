@@ -1,0 +1,79 @@
+import java.util.*;
+
+/**
+ * @author maxrosenberg
+ *
+ */
+public class Chemputer_Final {
+	public static void main(String[] args) {
+        //Intstantiantions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		String [] PerTab= {"H","He","Li","Be","B","C","N","O","F","Ne","Na","Mg","Al","Si","P","S","Cl","Ar","K","Ca","Sc","Ti","V","CrII","CrIII","MnII","MnIII","FeII","FeIII","CoII","CoIII","NiII","NiIII","CuI","CuII","Zn","Ga","Ge","As","Se","Br","Kr","Rb","Sr","Y","Zr","Nb","Mo","Tc","Ru","Rh","Pd","Ag","Cd","In","SnII","SnIV","Sb","Te","I","Xe","Cs","Ba","La","Ce","Pr","Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Hf","Ta","W","Re","Os","Ir","Pt","AuI","AuIII","HgI","HgII","Tl","PbII","PbIV","Bi","Po","At","Rn","Fr","Ra","Ac","Th","Pa","U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No","Lr","Rf","Db","Sg","Bh","Hs","Mt"};
+		String [] PolyTab= {"H2PO4","HCO3","HSO3","HSO4","C2H3O2","OH","MnO4","CN","ClO","ClO2","ClO3","ClO4","NO2","NO3","HPO4","CO3","SO3","SO4","S2O3","C2O4","CrO4","Cr2O7","SiO3","PO4","PO3","BO3","AsO4","NH4","H3O"};
+		int [] PerTabVal= {1,0,1,2,3,4,-3,-2,-1,0,1,2,3,4,-3,-2,-1,0,1,2,0,0,0,2,3,2,3,2,3,2,3,2,3,1,2,2,3,4,-3,-2,-1,0,1,2,0,0,0,0,0,0,0,0,1,2,3,2,4,-3,-2,-1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,1,2,3,2,4,-3,-2,-1,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+		int [] PolyTabVal= {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-2,-2,-2,-2,-2,-2,-2,-2,-2,-3,-3,-3,-3,1,1};
+		Scanner input = new Scanner(System.in); 
+		int firstElChar=0;
+		int secondElChar=0;
+		//Set Arrays~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		System.out.println("What is your first element?");
+		String firstEl = input.nextLine();
+		System.out.println("What is your second element?");
+		String secondEl = input.nextLine();
+		for(int i=0;i<PerTab.length;i++)
+		{
+			if(firstEl.equals(PerTab[i]))
+			{
+				firstElChar=PerTabVal[i];
+			}
+			if(secondEl.equals(PerTab[i]))
+			{
+				secondElChar=PerTabVal[i];
+			}
+		}
+		if(firstElChar+secondElChar==0)
+		{
+			System.out.println(firstEl+secondEl);
+		}
+		else if((2*firstElChar)+secondElChar==0)
+		{
+			System.out.println(firstEl+"₂"+secondEl);
+		}
+		else if(firstElChar+(2*secondElChar)==0)
+		{
+			System.out.println(firstEl+secondEl+"₂");
+		}
+		else if((3*firstElChar)+secondElChar==0)
+		{
+			System.out.println(firstEl+"₃"+secondEl);
+		}
+		else if(firstElChar+(3*secondElChar)==0)
+		{
+			System.out.println(firstEl+secondEl+"₃");
+		}
+		else if((4*firstElChar)+secondElChar==0)
+		{
+			System.out.println(firstEl+"₄"+secondEl);
+		}
+		else if(firstElChar+(4*secondElChar)==0)
+		{
+			System.out.println(firstEl+secondEl+"₄");
+		}
+		else if((2*firstElChar)+(3*secondElChar)==0)
+		{
+			System.out.println(firstEl+"₂"+secondEl+"₃");
+		}
+		else if((3*firstElChar)+(2*secondElChar)==0)
+		{
+			System.out.println(firstEl+"₃"+secondEl+"₂");
+		}
+		else 
+		{
+			System.out.println("Invalid combination: Please try again");
+		}
+		
+		
+		
+}
+	
+
+}

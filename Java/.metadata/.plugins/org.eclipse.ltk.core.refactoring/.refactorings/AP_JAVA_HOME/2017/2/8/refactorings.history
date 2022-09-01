@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;listmethods&apos; to &apos;ArrayWorksheet&apos;&#x0D;&#x0A;- Original project: &apos;AP_JAVA_HOME&apos;&#x0D;&#x0A;- Original element: &apos;listmethods&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayWorksheet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;listmethods&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{listmethods.java[listmethods" matchStrategy="1" name="ArrayWorksheet" qualified="false" references="true" similarDeclarations="false" stamp="1487829132175" textual="false" version="1.0"/>
+</session>

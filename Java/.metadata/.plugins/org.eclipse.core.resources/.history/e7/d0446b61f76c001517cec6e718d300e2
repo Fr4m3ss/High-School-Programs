@@ -1,0 +1,20 @@
+
+
+import kareltherobot.*;
+
+public class StairSweeperMain implements Directions {
+
+	public static void task() {
+		UrRobot Framess = new UrRobot(1,1,North,10); 
+	}
+
+	// Main entry point
+	static public void main(String[] args) {
+		World.setDelay(15);
+		// World.readWorld("fivehurdle.txt");
+		World.setVisible();
+		World.setSize(11,10);
+		task();
+	}
+}
+
